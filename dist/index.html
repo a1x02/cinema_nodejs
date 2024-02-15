@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Личный кабинет</title>
+  <script type="module" crossorigin src="/main-BqVAqew_.js"></script>
+  <link rel="stylesheet" crossorigin href="/main-CeAWSRYE.css">
+</head>
+<body class="page">
+<header class="header">
+  <img src="/logo-white-C1wsSpbW.svg" alt="Логотип Киномин" class="header__logo">
+  <div class="header__lk-container">
+    <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20fill='%23ffffff'%20viewBox='0%200%2024.00%2024.00'%20stroke='%23ffffff'%20stroke-width='0.00024000000000000003'%3e%3cg%20id='SVGRepo_bgCarrier'%20stroke-width='0'%3e%3c/g%3e%3cg%20id='SVGRepo_tracerCarrier'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/g%3e%3cg%20id='SVGRepo_iconCarrier'%3e%3cpath%20d='M12%202C6.48%202%202%206.48%202%2012s4.48%2010%2010%2010%2010-4.48%2010-10S17.52%202%2012%202zm0%203c1.66%200%203%201.34%203%203s-1.34%203-3%203-3-1.34-3-3%201.34-3%203-3zm0%2014.2c-2.5%200-4.71-1.28-6-3.22.03-1.99%204-3.08%206-3.08%201.99%200%205.97%201.09%206%203.08-1.29%201.94-3.5%203.22-6%203.22z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e" alt="иконка личный кабинет" class="header__lk-icon">
+    <p class="header__link">Личный кабинет</p>
+  </div>
+</header>
+<main class="sessions">
+  <h1 class="sessions__title">Список сеансов</h1>
+  <img src="data:image/svg+xml,%3csvg%20viewBox='0%200%2032%2032'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'%20fill='%23ffffff'%20stroke='%23ffffff'%3e%3cg%20id='SVGRepo_bgCarrier'%20stroke-width='0'%3e%3c/g%3e%3cg%20id='SVGRepo_tracerCarrier'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/g%3e%3cg%20id='SVGRepo_iconCarrier'%3e%3ctitle%3eplus-square%3c/title%3e%3cdesc%3eCreated%20with%20Sketch%20Beta.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%20sketch:type='MSPage'%3e%3cg%20id='Icon-Set-Filled'%20sketch:type='MSLayerGroup'%20transform='translate(-102.000000,%20-1037.000000)'%20fill='%23ffffff'%3e%3cpath%20d='M124,1054%20L119,1054%20L119,1059%20C119,1059.55%20118.552,1060%20118,1060%20C117.448,1060%20117,1059.55%20117,1059%20L117,1054%20L112,1054%20C111.448,1054%20111,1053.55%20111,1053%20C111,1052.45%20111.448,1052%20112,1052%20L117,1052%20L117,1047%20C117,1046.45%20117.448,1046%20118,1046%20C118.552,1046%20119,1046.45%20119,1047%20L119,1052%20L124,1052%20C124.552,1052%20125,1052.45%20125,1053%20C125,1053.55%20124.552,1054%20124,1054%20L124,1054%20Z%20M130,1037%20L106,1037%20C103.791,1037%20102,1038.79%20102,1041%20L102,1065%20C102,1067.21%20103.791,1069%20106,1069%20L130,1069%20C132.209,1069%20134,1067.21%20134,1065%20L134,1041%20C134,1038.79%20132.209,1037%20130,1037%20L130,1037%20Z'%20id='plus-square'%20sketch:type='MSShapeGroup'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e" alt="Добавить сеанс" class="sessions__add">
+  <span class="error error__no-sessions">Ни один сеанс еще не был создан</span>
+  <div class="sessions__list">
+
+  </div>
+<!--  <div class="session">-->
+<!--    <button class="session__delete"></button>-->
+<!--    <button class="session__edit"></button>-->
+<!--    <img src="https://images.kinomax.ru/550/films/7/7315/p_3de2386.ebp" alt="test" class="session__image">-->
+<!--    <div class="session__info">-->
+<!--      <h2 class="session__title">Холоп 2. Комедия 2D.</h2>-->
+<!--      <p class="session__hall">Зал 2</p>-->
+<!--      <div class="session__controls">-->
+<!--        <p class="session__date">10.01.2024 17:00</p>-->
+<!--        <button class="session__button">Оформить</button>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+</main>
+<footer>
+
+</footer>
+<section class="popup popup_add-session" id="#popupaddsession">
+  <div class="popup__container">
+    <button class="popup__close" type="button"></button>
+    <h2 class="popup__title">Добавить новый сеанс</h2>
+    <form class="popup__form popup__form_add-session">
+      <select class="popup__select">
+        <option value="" disabled selected >Выберите фильм</option>
+      </select>
+      <select class="popup__select popup__select-hall">
+        <option value="" disabled selected >Выберите зал</option>
+      </select>
+      <input class="popup__date" type="date" name="date">
+      <input class="popup__time" type="time" name="time">
+      <button class="popup__save-btn" type="submit">Сохранить</button>
+    </form>
+  </div>
+<!--</section>-->
+<!--<section class="popup popup_confirm" id="#popup-confirm">-->
+<!--  <div class="popup__container">-->
+<!--    <button class="popup__close" type="button"></button>-->
+<!--    <h2 class="popup__title">Удалить сеанс?</h2>-->
+<!--    <form class="popup__form">-->
+<!--      <button class="popup__save-btn" type="submit" id="delete-session-btn">Подтвердить</button>-->
+<!--    </form>-->
+<!--  </div>-->
+</section>
+<section class="popup popup_edit-session" id="#popup-edit-session">
+  <div class="popup__container">
+    <button class="popup__close" type="button"></button>
+    <h2 class="popup__title">Редактировать информацию</h2>
+    <form class="popup__form">
+      <select class="popup__select">
+        <option value="" disabled selected >Изменить фильм</option>
+      </select>
+      <select class="popup__select popup__select-hall">
+        <option value="" disabled selected >Изменить зал</option>
+      </select>
+      <input class="popup__date" type="date">
+      <input class="popup__time" type="time">
+      <button class="popup__save-btn" type="submit">Сохранить</button>
+    </form>
+  </div>
+</section>
+<section class="popup popup_buy-tickets" id="#popup-buy-tickets">
+  <div class="popup__hallmap-container">
+    <button class="popup__close" type="button"></button>
+    <h2 class="popup__title">Карта зала</h2>
+    <div class="popup__hallmap">
+      <div class="popup__screen">Экран</div>
+      <div class="popup__seats">
+        <div class="popup__seat" id="1-1">1</div>
+        <div class="popup__seat" id="1-2">2</div>
+        <div class="popup__seat" id="1-3">3</div>
+        <div class="popup__seat" id="1-4">4</div>
+        <div class="popup__seat" id="1-5">5</div>
+        <div class="popup__seat" id="1-6">6</div>
+        <div class="popup__seat" id="1-7">7</div>
+        <div class="popup__seat" id="1-8">8</div>
+        <div class="popup__seat" id="1-9">9</div>
+        <div class="popup__seat" id="1-10">10</div>
+        <div class="popup__seat" id="2-1">1</div>
+        <div class="popup__seat" id="2-2">2</div>
+        <div class="popup__seat" id="2-3">3</div>
+        <div class="popup__seat" id="2-4">4</div>
+        <div class="popup__seat" id="2-5">5</div>
+        <div class="popup__seat" id="2-6">6</div>
+        <div class="popup__seat" id="2-7">7</div>
+        <div class="popup__seat" id="2-8">8</div>
+        <div class="popup__seat" id="2-9">9</div>
+        <div class="popup__seat" id="2-10">10</div>
+        <div class="popup__seat" id="3-1">1</div>
+        <div class="popup__seat" id="3-2">2</div>
+        <div class="popup__seat" id="3-3">3</div>
+        <div class="popup__seat" id="3-4">4</div>
+        <div class="popup__seat" id="3-5">5</div>
+        <div class="popup__seat" id="3-6">6</div>
+        <div class="popup__seat" id="3-7">7</div>
+        <div class="popup__seat" id="3-8">8</div>
+        <div class="popup__seat" id="3-9">9</div>
+        <div class="popup__seat" id="3-10">10</div>
+        <div class="popup__seat" id="4-1">1</div>
+        <div class="popup__seat" id="4-2">2</div>
+        <div class="popup__seat" id="4-3">3</div>
+        <div class="popup__seat" id="4-4">4</div>
+        <div class="popup__seat" id="4-5">5</div>
+        <div class="popup__seat" id="4-6">6</div>
+        <div class="popup__seat" id="4-7">7</div>
+        <div class="popup__seat" id="4-8">8</div>
+        <div class="popup__seat" id="4-9">9</div>
+        <div class="popup__seat" id="4-10">10</div>
+        <div class="popup__seat" id="5-1">1</div>
+        <div class="popup__seat" id="5-2">2</div>
+        <div class="popup__seat" id="5-3">3</div>
+        <div class="popup__seat" id="5-4">4</div>
+        <div class="popup__seat" id="5-5">5</div>
+        <div class="popup__seat" id="5-6">6</div>
+        <div class="popup__seat" id="5-7">7</div>
+        <div class="popup__seat" id="5-8">8</div>
+        <div class="popup__seat" id="5-9">9</div>
+        <div class="popup__seat" id="5-10">10</div>
+        <div class="popup__seat" id="6-1">1</div>
+        <div class="popup__seat" id="6-2">2</div>
+        <div class="popup__seat" id="6-3">3</div>
+        <div class="popup__seat" id="6-4">4</div>
+        <div class="popup__seat" id="6-5">5</div>
+        <div class="popup__seat" id="6-6">6</div>
+        <div class="popup__seat" id="6-7">7</div>
+        <div class="popup__seat" id="6-8">8</div>
+        <div class="popup__seat" id="6-9">9</div>
+        <div class="popup__seat" id="6-10">10</div>
+        <div class="popup__seat" id="7-1">1</div>
+        <div class="popup__seat" id="7-2">2</div>
+        <div class="popup__seat" id="7-3">3</div>
+        <div class="popup__seat" id="7-4">4</div>
+        <div class="popup__seat" id="7-5">5</div>
+        <div class="popup__seat" id="7-6">6</div>
+        <div class="popup__seat" id="7-7">7</div>
+        <div class="popup__seat" id="7-8">8</div>
+        <div class="popup__seat" id="7-9">9</div>
+        <div class="popup__seat" id="7-10">10</div>
+        <div class="popup__seat" id="8-1">1</div>
+        <div class="popup__seat" id="8-2">2</div>
+        <div class="popup__seat" id="8-3">3</div>
+        <div class="popup__seat" id="8-4">4</div>
+        <div class="popup__seat" id="8-5">5</div>
+        <div class="popup__seat" id="8-6">6</div>
+        <div class="popup__seat" id="8-7">7</div>
+        <div class="popup__seat" id="8-8">8</div>
+        <div class="popup__seat" id="8-9">9</div>
+        <div class="popup__seat" id="8-10">10</div>
+      </div>
+      <ul class="popup__rows">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+      </ul>
+    </div>
+    <form class="popup__form" id="chosenSeats">
+      <ul class="popup__ticket-info">
+        <li>Выбранные билеты:</li>
+      </ul>
+      <button class="popup__save-btn popup__buy-tickets-btn" type="submit">Оформить</button>
+    </form>
+  </div>
+</section>
+<template class="session-template">
+  <div class="session">
+    <button class="session__delete"></button>
+    <button class="session__edit"></button>
+    <img src="https://images.kinomax.ru/550/films/7/7315/p_3de2386.ebp" alt="test" class="session__image">
+    <div class="session__info">
+      <h2 class="session__title">Холоп 2. Комедия 2D.</h2>
+      <p class="session__hall">Зал 2</p>
+      <div class="session__controls">
+        <p class="session__date">10.01.2024 17:00</p>
+        <button class="session__button">Оформить</button>
+      </div>
+    </div>
+  </div>
+</template>
+</body>
+</html>

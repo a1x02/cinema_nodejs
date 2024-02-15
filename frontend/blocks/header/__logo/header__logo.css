@@ -1,0 +1,11 @@
+.header__logo {
+  padding: 0;
+  margin: auto 0 auto 60px;
+  width: 12vw;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+.header__logo:hover {
+  opacity: 0.7;
+}

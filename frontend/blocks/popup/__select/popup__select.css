@@ -1,0 +1,7 @@
+.popup__select {
+  width: 80%;
+  margin: 30px auto 0;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #FFFFFF;
+}

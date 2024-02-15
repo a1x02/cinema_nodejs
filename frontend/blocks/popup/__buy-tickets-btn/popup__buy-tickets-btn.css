@@ -1,0 +1,19 @@
+.popup__buy-tickets-btn {
+  width: 40%;
+  height: 50px;
+  margin: 40px auto 34px;
+  background-color: #2a2a2a;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+}
+
+.popup__buy-tickets-btn:hover {
+  opacity: 0.7;
+}

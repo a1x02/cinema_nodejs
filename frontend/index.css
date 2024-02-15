@@ -1,0 +1,53 @@
+/*Подключаем нормализацию и шрифты*/
+@import url("vendor/normalize.css");
+@import url("vendor/Inter-Web/inter.css");
+
+/*Подключаем основные стили страницы*/
+@import url("blocks/page/page.css");
+
+/*Подключаем стили шапки сайта*/
+@import url("blocks/header/header.css");
+@import url("blocks/header/__logo/header__logo.css");
+@import url("blocks/header/__lk-container/header__lk-container.css");
+@import url("blocks/header/__lk-container/__link/header__link.css");
+@import url("blocks/header/__lk-container/__lk-icon/header__lk-icon.css");
+
+/*Подключаем стили основной части страницы*/
+@import url("blocks/sessions/sessions.css");
+@import url("blocks/sessions/__add/sessions__add.css");
+@import url("blocks/sessions/__title/sessions__title.css");
+@import url("blocks/session/session.css");
+@import url("blocks/session/__image/session__image.css");
+@import url("blocks/session/__info/session__info.css");
+@import url("blocks/session/__title/session__title.css");
+@import url("blocks/session/__hall/session__hall.css");
+@import url("blocks/session/__date/session__date.css");
+@import url("blocks/session/__controls/session__controls.css");
+@import url("blocks/session/__button/session__button.css");
+@import url("blocks/session/__delete/session__delete.css");
+@import url("blocks/session/__edit/session__edit.css");
+
+/*Подключаем стили ошибок*/
+@import url("blocks/error/error.css");
+@import url("blocks/error/__no-sessions/error__no-sessions.css");
+@import url("blocks/error/_visible/error_visible.css");
+
+/*Подключаем стили модальных окон*/
+@import url("blocks/popup/popup.css");
+@import url("blocks/popup/__close/popup__close.css");
+@import url("blocks/popup/__container/popup__container.css");
+@import url("blocks/popup/__title/popup__title.css");
+@import url("blocks/popup/__form/popup__form.css");
+@import url("blocks/popup/__select/popup__select.css");
+@import url("blocks/popup/__date/popup__date.css");
+@import url("blocks/popup/__time/popup__time.css");
+@import url("blocks/popup/__save-btn/popup__save-btn.css");
+@import url("blocks/popup/__buy-tickets-btn/popup__buy-tickets-btn.css");
+@import url("blocks/popup/__ticket-info/popup__ticket-info.css");
+@import url("blocks/popup/_opened/popup_opened.css");
+@import url("blocks/popup/__hallmap-container/popup__hallmap-container.css");
+@import url("blocks/popup/__hallmap/popup__hallmap.css");
+@import url("blocks/popup/__screen/popup__screen.css");
+@import url("blocks/popup/__seats/popup__seats.css");
+@import url("blocks/popup/__seat/popup__seat.css");
+@import url("blocks/popup/__rows/popup__rows.css");

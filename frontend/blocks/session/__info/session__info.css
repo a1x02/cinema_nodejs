@@ -1,0 +1,9 @@
+.session__info {
+  margin: 20px 0 20px;
+  padding: 0;
+  width: 80%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

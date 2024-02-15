@@ -1,0 +1,18 @@
+.popup__rows {
+  position: absolute;
+  height: 380px;
+  width: 10px;
+  left: 150px;
+  top: 140px;
+  color: rgba(0,0,0,.5);
+  display: grid;
+  grid-template-columns: 30px;
+  grid-template-rows: repeat(8, 30px);
+  grid-row-gap: 20px;
+}
+
+.popup__rows li {
+  font-size: 20px;
+  list-style: none;
+  text-align: center;
+}

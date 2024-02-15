@@ -1,0 +1,11 @@
+.popup__ticket-info {
+  color: black;
+  text-align: center;
+  visibility: hidden;
+  text-decoration: none;
+  list-style: none;
+}
+
+.popup__ticket-info_visible {
+  visibility: visible;
+}

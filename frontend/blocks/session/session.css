@@ -1,0 +1,9 @@
+.session {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50,50,50);
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
